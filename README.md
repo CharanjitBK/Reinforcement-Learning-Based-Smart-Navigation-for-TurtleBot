@@ -121,7 +121,7 @@ Run the script to download and extract:
 
 ```bash
 python download_model.py
-
+```
 
 1. Launch the world
 

@@ -46,14 +46,24 @@ You can install the project using either **Docker (recommended)** or **manual in
 
 **Prerequisites:** Docker, NVIDIA Docker (for GPU support).
 
-
+1. build docker image
 
 ```
 # Build image
-docker build -t smart-nav-rl .
+bash docker-build.bash
+```
 
+2. run docker image
+```
 # Run container
-docker run -it --rm --net=host smart-nav-rl
+bash docker-run.bash
+```
+
+3. another terminal for same container
+
+```
+# Run same  container again
+bash into_docker.bash
 ```
 
 ### Option 2: Manual Installation

@@ -154,4 +154,35 @@ ros2 run turtlebot3_drl test_agent td3 "exanples/td3_0_stage_9" 5000
 ## Real World Deployment
 
 
+connect with the turtlebot
+
+```
+ros2 launch turtlebot3_bringup robot.launch.py
+```
+
+1. launch real environment node for  turtlebot to interact with environment
+
+```
+ros2 run turtlebot3_drl real_environment
+```
+
+2.  Launch node for goal
+
+```
+ros2 run turtlebot3_drl goal_Real
+```
+
+3.Launch the drl agent in real world
+
+```
+ros2 run turtlebot3_drl real_agent [ALGORITHM_NAME] [model-folder] [MODEL_EPISODE]
+```
+
+```
+ros2 run turtlebot3_drl real_agent td3 "exanples/td3_0_stage_9" 5000
+```
+
+
+
+
    

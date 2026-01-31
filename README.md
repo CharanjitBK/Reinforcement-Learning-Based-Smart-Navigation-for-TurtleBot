@@ -363,6 +363,13 @@ ros2 run turtlebot3_drl real_agent td3 "exanples/td3_0_stage_9" 5000
 **Simulation Videos and Real World Videos Folder**  
 [Click here to view all simulation videos](https://drive.google.com/drive/folders/15CUUyt1jxtIPTOVXGr50IYs3aEf_Ebvy?usp=sharing)
 
+## Acknowledgment
+
+This project is inspired by the open-source repository  
+https://github.com/tomasvr/turtlebot3_drlnav by Tomas Vr.
+
+The repository was used as a reference for system architecture and DRL navigation concepts. 
+All implementations and experiments in this project were independently developed and modified for our use case.
 
 
    
